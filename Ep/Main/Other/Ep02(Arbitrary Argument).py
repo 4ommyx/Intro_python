@@ -15,3 +15,16 @@ summ(10,5)
 summ(10,5,20)
 summ(10,5,20,15)
 summ(10,5,20,15,50)
+
+# kwargs --> parameter มีหลายชื่อ 
+# เก็บข้อมูลในรูปของ dict จึงมี parameter ได้เยอะ 
+# **kwrgs
+
+def data(**dataa):
+    print(dataa)
+    print(dataa["age"])
+
+data(age=18,ww=60,hh=170)
+data(age=23,ww=46)
+data(age=14)
+
