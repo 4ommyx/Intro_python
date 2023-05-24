@@ -1,5 +1,7 @@
 #การเปลี่ยนแปลงข้อมูล คล้ายๆlist
 room = {100:"aom",101:"ohm",102:"pee",103:"aus"}
+for i in room:
+    print(room)
 print(room)
 room[100] = "nattawut"
 print(room)
